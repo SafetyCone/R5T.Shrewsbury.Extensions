@@ -1,0 +1,4 @@
+R5T.Shrewsbury.Extensions.Construction - A construction console-app for the library R5T.Shrewsbury.Extensions.
+
+Goals
+
