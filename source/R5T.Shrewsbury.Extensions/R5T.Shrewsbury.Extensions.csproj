@@ -6,6 +6,7 @@
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\..\..\R5T.Chamavia\source\R5T.Chamavia\R5T.Chamavia.csproj" />
+    <ProjectReference Include="..\..\..\R5T.Dacia\source\R5T.Dacia\R5T.Dacia.csproj" />
     <ProjectReference Include="..\..\..\R5T.Lombardy.Base\source\R5T.Lombardy.Base\R5T.Lombardy.Base.csproj" />
     <ProjectReference Include="..\..\..\R5T.Shrewsbury.Base\source\R5T.Shrewsbury.Base\R5T.Shrewsbury.Base.csproj" />
     <ProjectReference Include="..\..\..\R5T.Shrewsbury\source\R5T.Shrewsbury\R5T.Shrewsbury.csproj" />
