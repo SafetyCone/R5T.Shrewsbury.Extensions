@@ -18,9 +18,9 @@ namespace R5T.Shrewsbury.Extensions
 
             var stringlyTypedPathOperator = configurationServiceProvider.GetRequiredService<IStringlyTypedPathOperator>();
 
-            var defaultAppSettingsJsonFilePath = stringlyTypedPathOperator.GetFilePath(appSettingsDirectoryPath, fileName);
+            var appSettingsJsonFilePath = stringlyTypedPathOperator.GetFilePath(appSettingsDirectoryPath, fileName);
 
-            configurationBuilder.AddJsonFile(defaultAppSettingsJsonFilePath, optional);
+            configurationBuilder.AddJsonFile(appSettingsJsonFilePath, optional);
 
             return configurationBuilder;
         }
